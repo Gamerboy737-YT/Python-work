@@ -25,8 +25,10 @@ def select_tin_flavours():
             while valid == False:
                               try:
                               flavour_to_add = input("Please either enter the corresponding number or name of the flavour to add: ")
-                              if flavour_to_add.title() not in flavours.values():
-                              print("Sorry, we don't recognsie that flavour. Please try again.")
-                              raise ValueError
-                        
+                                          if flavour_to_add.title() not in flavours.values():
+                                          print("Sorry, we don't recognsie that flavour. Please try again.")
+                                          raise ValueError
+                              
+def menu():
+            int(input(
            
